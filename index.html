@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="Deepika/cal.css">
+</head>
+<body>
+    
+    <div class="container">
+        <div class="Calculator">
+            <div class="Calculator-header">
+                <h3 style="text-align:center;">CASIO</h3>
+            </div>
+            <div class="Calculator-body">
+            <div>
+                <h1 id="output">0</h1>
+                <p id="input"></p>
+                </div>
+            </div>
+            <div class="Calculator-footer">
+               <div onclick="calculate('AC')"><span style="color:#ff7043">AC</span></div>
+               <div onclick="calculate('C')"><span>C</span></div>
+               <div onclick="calculate('%')"><span>%</span></div>
+               <div onclick="calculate('/')"><span>/</span></div>
+               <div onclick="calculate('7')"><span>7</span></div>
+               <div onclick="calculate('8')"><span>8</span></div>
+               <div onclick="calculate('9')"><span>9</span></div>
+               <div onclick="calculate('*')"><span>x</span></div>
+               <div onclick="calculate('4')"><span>4</span></div>
+               <div onclick="calculate('5')"><span>5</span></div>
+               <div onclick="calculate('6')"><span>6</span></div>
+               <div onclick="calculate('-')"><span>-</span></div>
+               <div onclick="calculate('1')"><span>1</span></div>
+               <div onclick="calculate('2')"><span>2</span></div>
+               <div onclick="calculate('3')"><span>3</span></div>
+               <div onclick="calculate('+')"><span>+</span></div>
+               <div onclick="calculate('0')"><span>0</span></div>
+              <div onclick="calculate('00')"><span>00</span></div>
+               <div onclick="calculate('.')"><span>.</span></div>
+               <div onclick="calculate('=')" class="symbol"><span>=</span></div>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/9.4.4/math.js" integrity="sha512-XTa+nLKjbTCUazCWzwYpykjsTQDaepuKlg9YToCij7+Bdi9aHQhBQlV0rfnYmactJjHdusRQQV+6qWNNv0BScA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="Deepika/js/cal.js"></script>
+    
+</body>
+</html>
